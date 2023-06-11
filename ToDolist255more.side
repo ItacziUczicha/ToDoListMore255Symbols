@@ -1,0 +1,85 @@
+{
+  "id": "a2e87fcf-7fc0-499d-82ac-6fd8fb02c594",
+  "version": "2.0",
+  "name": "ToDolist255more",
+  "url": "https://todolist.james.am/#/",
+  "tests": [{
+    "id": "b52c7f01-a972-45ff-9c52-3b025f99df6a",
+    "name": "Untitled",
+    "commands": [{
+      "id": "31d97de2-d471-492d-af93-d05005145211",
+      "comment": "",
+      "command": "open",
+      "target": "https://todolist.james.am/#/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f46d321b-e09b-4e04-9aad-7655eee20029",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc4d4ffc-0c02-4e60-8d1a-a8e878f8a515",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum"
+    }, {
+      "id": "6ac74676-cebc-475b-bad2-350f51cd428e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum"
+    }, {
+      "id": "c20c13a6-44f0-4d09-954b-3d8c8df2d89e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "25abc733-f162-47b9-af09-07157dbf08f3",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456"
+    }, {
+      "id": "41b6fd17-554d-44e9-940e-4327cb1290ea",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "842a2a43-bafe-4bfe-843d-a65b5fa9c641",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b52c7f01-a972-45ff-9c52-3b025f99df6a"]
+  }],
+  "urls": ["https://todolist.james.am/#/"],
+  "plugins": []
+}
